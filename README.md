@@ -10,7 +10,6 @@ Lightweight Fedora Browser with YouTube AdBlocker, Eco Mode 144p, & Download Man
 - ✅ **YouTube AdBlocker Built-in** - Nonton tanpa iklan
 - ✅ **Eco Mode 144p** - Hemat RAM & Kuota sampe 80%
 - ✅ **aria2 Integration** - Download manager kenceng otomatis
-- ✅ **Homepage Lock** - Default: [rfi88.github.io](https://rfi88.github.io)
 - ✅ **Kijang R88 Icon** - Logo custom rusa R88
 
 ### 📦 Install Fedora 40/41/42/43/44
