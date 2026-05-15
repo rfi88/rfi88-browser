@@ -15,46 +15,63 @@ Lightweight Fedora Browser with YouTube AdBlocker, Eco Mode 144p, & Download Man
 
 ### 📦 Install Fedora 40/41/42/43/44
 
-#### **Cara 1: Via Copr - Recommended 🔥**
+#### 
+**Cara 1: Via Copr - Recommended 🔥**
 Paling gampang, auto update:
-```bash
+
 sudo dnf copr enable rofii159/Rfi88Browser
+
 sudo dnf install Rfi88Browser
 
-Cara 2: Download RPM Manual
+
+**Cara 2: Download RPM Manual**
 Buat yang mau file .rpm nya:
 
-# Download dari Releases
+ Download dari Releases
+ 
 wget https://github.com/rfi88/rfi88-browser/releases/download/v1.0/Rfi88Browser-1.0-1.fc43.x86_64.rpm
 
-# Install + auto install dependency aria2
-sudo dnf install ./Rfi88Browser-1.0-1.fc43.x86_64.rpm
+**Cara 3: Install langsung dari URL - Paling Gampang**
+
+sudo dnf install https://github.com/rfi88/rfi88-browser/releases/download/v1.0/Rfi88Browser-1.0-1.fc43.x86_64.rpm
 
 🛠 Build from Source
 
 Buat yang mau compile sendiri:
 
-# Install dependencies
+
+### Install dependencies
 sudo dnf install qt6-qtbase-devel qt6-qtwebengine-devel gcc-c++
 
-# Build
+### Build
+
 tar -xzvf Rfi88Browser-1.0.tar.gz
+
 cd Rfi88Browser-1.0
+
 qmake6 && make -j$(nproc)
+
 sudo make install
 
-🗑️ Uninstall Rfi88 Browser
+
+### 🗑️ Uninstall Rfi88 Browser
 Kalo mau hapus total:
 1. Hapus Aplikasi
+
 sudo dnf remove Rfi88Browser
 
-2. Hapus Repo Copr - Opsional
+3. Hapus Repo Copr - Opsional
+
 Biar gak auto-update lagi:
+
 sudo dnf copr remove rofii159/Rfi88Browser
 
-3. Hapus Config - Opsional
+4. Hapus Config - Opsional
+
 Kalo mau bersih total, hapus folder config:
+
 rm -rf ~/.config/Rfi88Browser
+
 rm -rf ~/.cache/Rfi88Browser
 
 
