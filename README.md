@@ -42,10 +42,10 @@ tar -xzvf Rfi88Browser-1.0.tar.gz
 cd Rfi88Browser-1.0
 qmake6 && make -j$(nproc)
 sudo make install
+
 🐛 Lapor Bug / Request Fitur
-
 Buka Issues: https://github.com/rfi88/rfi88-browser/issues
-📜 License
 
+📜 License
 GPLv3 © 2026 Rfi88
 Ketapang, Kalimantan Barat, Indonesia
