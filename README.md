@@ -16,6 +16,12 @@ Lightweight Fedora Browser with YouTube AdBlocker, Eco Mode 144p, & Download Man
 # Download dari Releases
 wget https://github.com/rfi88/rfi88-browser/releases/download/v1.0/Rfi88Browser-1.0-1.fc43.x86_64.rpm
 
+   [![Copr build status](https://copr.fedorainfracloud.org/coprs/rofii159/Rfi88Browser/package/Rfi88Browser/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/rofii159/Rfi88Browser/)
+   
+   # Install
+   sudo dnf copr enable rofii159/Rfi88Browser
+   sudo dnf install Rfi88Browser
+
 # Install + auto install aria2
 sudo dnf install ./Rfi88Browser-1.0-1.fc43.x86_64.rpm
 
