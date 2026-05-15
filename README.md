@@ -43,6 +43,22 @@ cd Rfi88Browser-1.0
 qmake6 && make -j$(nproc)
 sudo make install
 
+🗑️ Uninstall Rfi88 Browser
+Kalo mau hapus total:
+1. Hapus Aplikasi
+sudo dnf remove Rfi88Browser
+
+2. Hapus Repo Copr - Opsional
+Biar gak auto-update lagi:
+sudo dnf copr remove rofii159/Rfi88Browser
+
+3. Hapus Config - Opsional
+Kalo mau bersih total, hapus folder config:
+rm -rf ~/.config/Rfi88Browser
+rm -rf ~/.cache/Rfi88Browser
+
+
+
 🐛 Lapor Bug / Request Fitur
 Buka Issues: https://github.com/rfi88/rfi88-browser/issues
 
